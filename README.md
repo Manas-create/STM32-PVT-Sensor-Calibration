@@ -26,3 +26,13 @@ Two firmware variants are included:
 The system's logic was successfully verified using a simulated logic analyzer (PulseView). The logic traces mathematically prove the correct generation of the 16-bit test payload bounded by the active PWM control signal.
 
 *(See the attached PDF report for full waveform screenshots and serial communication logs).*
+## Project Visuals
+
+### 1. Wokwi Hardware Architecture
+![Wokwi Circuit](env.jpg)
+
+### 2. Hardware Logic Trace (PulseView)
+![Logic Trace](waveform.png)
+
+### 3. Software Logic Trace (Serial Monitor)
+![Serial Trace](monitor.png)
